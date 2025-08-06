@@ -1,0 +1,31 @@
+ 
+  /*portada de la pagina>>>>>>>>>>>>>*/
+		
+		
+	.heroSection::before {
+		
+		content: "";
+		position: absolute;
+		inset: 0;
+
+		background-image: url("img/fondo");
+		background-size: cover;
+		background-position: center;
+		opacity: 0.7;
+
+		z-index: 0;
+		
+	}
+  
+  
+  .clicableBT:hover{
+    
+    padding:8px;
+    padding-left:23px;
+    padding-right:23px;
+    border:1px solid rgba(255, 255, 255, 1);
+    box-shadow:0px 0px 0px #222;
+    background: #e6b800;
+    
+  }
+  
