@@ -27,7 +27,7 @@
     Formulario.style.flexDirection="column";
     
     //animacion suave
-    Formulario.classList.add("transition", "duration-2000", "ease-in-out");
+    Formulario.classList.add("transition", "duration-700", "ease-in-out");
     
 
 

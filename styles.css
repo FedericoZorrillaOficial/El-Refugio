@@ -6,12 +6,11 @@
 		
 		content: "";
 		position: absolute;
-		inset: 0;
-
+		inset: -8px;
 		background-image: url("img/fondo.png");
 		background-size: cover;
 		background-position: center;
-		opacity: 0.7;
+		opacity: 0.8;
 
 		z-index: 0;
 		
@@ -29,3 +28,142 @@
     
   }
   
+  
+  
+  
+  
+    /*formulario emergente>>>>>>>>>>>>>*/
+  
+   
+  .boxFormularioEmergente{
+    
+    position:fixed;
+    width:98vw;
+    height:85vh;
+    z-index:5;
+    top:0;
+    left:0;
+    display:none;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    margin: 0;
+    padding-bottom:20px;
+  }
+  
+  
+  .formularioReservacion{
+    
+    max-width: 90%;
+		max-height: 95%;
+    margin: 0 auto;
+    background: #222;
+    padding: 2rem;
+    border-radius: 10px;
+    overflow-y:auto;
+    
+  }
+  
+  
+  
+  .formularioReservacion > section > h2{
+    
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffce00;
+    font-size:1.5rem;
+    
+  }
+  
+  
+  label {
+    
+    display: block;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    
+  }
+  
+  
+   
+  input, select, textarea {
+   
+    width: 100%;
+    min-height:40px;
+    margin-bottom: 1.5rem;
+    border-bottom:1px solid #f99;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+
+  }
+  
+  
+  
+   
+  .BTFormulario {
+    
+    width: 100%;
+    padding:9px;
+    padding-left:24px;
+    padding-right:24px;
+		margin-top:10px;
+
+    background: #c49600;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border:1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 1px 0px #fe9;
+    text-shadow: 0.3px 0.3px 0px #ccc;
+    
+  }
+  
+ 
+
+	.salirBox{
+
+    width: 90%;
+    max-width: 400px;
+		position:relative;
+		top:0;
+		right:0;
+    width: 90%;
+    margin-top:15px;
+    margin-bottom:10px;
+		display:flex;
+		justify-content:flex-end;
+		align-items:center;
+		
+	}
+
+	.salir > strong{
+
+		display:flex;
+		justify-content:center;
+		align-items:center;
+
+    margin:7px;
+		height:20px;
+		width:20px;
+
+	}
+
+	.salir{
+
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		color:#fff;	
+		text-shadow:1px -1px 0px #000;
+		font-size:1.6rem;
+		background:red;
+
+		border-radius:5px;
+
+	}
+
+
+
